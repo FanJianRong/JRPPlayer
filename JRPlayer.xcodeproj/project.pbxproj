@@ -28,6 +28,7 @@
 		4913090B1EE7DB34005635AF /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4913090A1EE7DB34005635AF /* libbz2.tbd */; };
 		4913090D1EE7DB6F005635AF /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4913090C1EE7DB6F005635AF /* libiconv.tbd */; };
 		4913090F1EE7DB77005635AF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4913090E1EE7DB77005635AF /* CoreMedia.framework */; };
+		491309191EE7DDF9005635AF /* JRFFVideoDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 491309181EE7DDF9005635AF /* JRFFVideoDecoder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +163,8 @@
 		4913090A1EE7DB34005635AF /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		4913090C1EE7DB6F005635AF /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		4913090E1EE7DB77005635AF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		491309171EE7DDF9005635AF /* JRFFVideoDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFVideoDecoder.h; sourceTree = "<group>"; };
+		491309181EE7DDF9005635AF /* JRFFVideoDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFVideoDecoder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,7 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				4913087C1EE7DA97005635AF /* ffmpeg */,
-				491308F71EE7DA98005635AF /* JRFFMpeg */,
+				491309161EE7DDF9005635AF /* JRFFmpeg */,
 			);
 			path = JRPlayer;
 			sourceTree = "<group>";
@@ -433,13 +436,6 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
-		491308F71EE7DA98005635AF /* JRFFMpeg */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = JRFFMpeg;
-			sourceTree = "<group>";
-		};
 		491308FF1EE7DB0C005635AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,6 +449,15 @@
 				491309001EE7DB0C005635AF /* CoreAudio.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		491309161EE7DDF9005635AF /* JRFFmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				491309171EE7DDF9005635AF /* JRFFVideoDecoder.h */,
+				491309181EE7DDF9005635AF /* JRFFVideoDecoder.m */,
+			);
+			path = JRFFmpeg;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -481,6 +486,7 @@
 		491308591EE7D9B1005635AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JR;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "樊健荣";
 				TargetAttributes = {
@@ -529,6 +535,7 @@
 			files = (
 				4913086C1EE7D9B1005635AF /* ViewController.m in Sources */,
 				491308691EE7D9B1005635AF /* AppDelegate.m in Sources */,
+				491309191EE7DDF9005635AF /* JRFFVideoDecoder.m in Sources */,
 				491308661EE7D9B1005635AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

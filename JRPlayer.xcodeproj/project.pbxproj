@@ -29,6 +29,21 @@
 		4913090D1EE7DB6F005635AF /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4913090C1EE7DB6F005635AF /* libiconv.tbd */; };
 		4913090F1EE7DB77005635AF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4913090E1EE7DB77005635AF /* CoreMedia.framework */; };
 		491309191EE7DDF9005635AF /* JRFFVideoDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 491309181EE7DDF9005635AF /* JRFFVideoDecoder.m */; };
+		4913091C1EE7E184005635AF /* JRFFVideoFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4913091B1EE7E184005635AF /* JRFFVideoFrame.m */; };
+		4913091F1EE7E7C2005635AF /* JRFFFrameQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4913091E1EE7E7C2005635AF /* JRFFFrameQueue.m */; };
+		491309221EE7E7D5005635AF /* JRFFPacketQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 491309211EE7E7D5005635AF /* JRFFPacketQueue.m */; };
+		491309251EE7E83E005635AF /* JRFFFramePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 491309241EE7E83E005635AF /* JRFFFramePool.m */; };
+		491309281EE80C19005635AF /* JRFFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 491309271EE80C19005635AF /* JRFFFrame.m */; };
+		4913092C1EE92609005635AF /* JRFFVideoToolBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 4913092B1EE92609005635AF /* JRFFVideoToolBox.m */; };
+		4913092F1EE94E1A005635AF /* JRFFTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4913092E1EE94E1A005635AF /* JRFFTools.m */; };
+		491309331EE94EBC005635AF /* JRYUVTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 491309321EE94EBC005635AF /* JRYUVTools.m */; };
+		491309361EE95045005635AF /* JRImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 491309351EE95045005635AF /* JRImageTools.m */; };
+		4918B7EA1EF3D7CA0071B05D /* JRFFAudioDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918B7E91EF3D7CA0071B05D /* JRFFAudioDecoder.m */; };
+		4918B7EE1EF5013F0071B05D /* JRFFFormatContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918B7ED1EF5013F0071B05D /* JRFFFormatContext.m */; };
+		4918B7F11EF503850071B05D /* JRFFMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918B7F01EF503850071B05D /* JRFFMetadata.m */; };
+		4918B7F41EF503920071B05D /* JRFFTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918B7F31EF503920071B05D /* JRFFTrack.m */; };
+		4918B7F81EF64C8A0071B05D /* JRFFDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918B7F71EF64C8A0071B05D /* JRFFDecoder.m */; };
+		4958B1281EF37F960051733C /* JRFFAudioFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4958B1271EF37F960051733C /* JRFFAudioFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -165,6 +180,36 @@
 		4913090E1EE7DB77005635AF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		491309171EE7DDF9005635AF /* JRFFVideoDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFVideoDecoder.h; sourceTree = "<group>"; };
 		491309181EE7DDF9005635AF /* JRFFVideoDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFVideoDecoder.m; sourceTree = "<group>"; };
+		4913091A1EE7E184005635AF /* JRFFVideoFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFVideoFrame.h; sourceTree = "<group>"; };
+		4913091B1EE7E184005635AF /* JRFFVideoFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFVideoFrame.m; sourceTree = "<group>"; };
+		4913091D1EE7E7C2005635AF /* JRFFFrameQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFFrameQueue.h; sourceTree = "<group>"; };
+		4913091E1EE7E7C2005635AF /* JRFFFrameQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFFrameQueue.m; sourceTree = "<group>"; };
+		491309201EE7E7D5005635AF /* JRFFPacketQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFPacketQueue.h; sourceTree = "<group>"; };
+		491309211EE7E7D5005635AF /* JRFFPacketQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFPacketQueue.m; sourceTree = "<group>"; };
+		491309231EE7E83E005635AF /* JRFFFramePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFFramePool.h; sourceTree = "<group>"; };
+		491309241EE7E83E005635AF /* JRFFFramePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFFramePool.m; sourceTree = "<group>"; };
+		491309261EE80C19005635AF /* JRFFFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFFrame.h; sourceTree = "<group>"; };
+		491309271EE80C19005635AF /* JRFFFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFFrame.m; sourceTree = "<group>"; };
+		4913092A1EE92609005635AF /* JRFFVideoToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFVideoToolBox.h; sourceTree = "<group>"; };
+		4913092B1EE92609005635AF /* JRFFVideoToolBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFVideoToolBox.m; sourceTree = "<group>"; };
+		4913092D1EE94E1A005635AF /* JRFFTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFTools.h; sourceTree = "<group>"; };
+		4913092E1EE94E1A005635AF /* JRFFTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFTools.m; sourceTree = "<group>"; };
+		491309311EE94EBC005635AF /* JRYUVTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRYUVTools.h; sourceTree = "<group>"; };
+		491309321EE94EBC005635AF /* JRYUVTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRYUVTools.m; sourceTree = "<group>"; };
+		491309341EE95045005635AF /* JRImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRImageTools.h; sourceTree = "<group>"; };
+		491309351EE95045005635AF /* JRImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRImageTools.m; sourceTree = "<group>"; };
+		4918B7E81EF3D7CA0071B05D /* JRFFAudioDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFAudioDecoder.h; sourceTree = "<group>"; };
+		4918B7E91EF3D7CA0071B05D /* JRFFAudioDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFAudioDecoder.m; sourceTree = "<group>"; };
+		4918B7EC1EF5013F0071B05D /* JRFFFormatContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFFormatContext.h; sourceTree = "<group>"; };
+		4918B7ED1EF5013F0071B05D /* JRFFFormatContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFFormatContext.m; sourceTree = "<group>"; };
+		4918B7EF1EF503850071B05D /* JRFFMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFMetadata.h; sourceTree = "<group>"; };
+		4918B7F01EF503850071B05D /* JRFFMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFMetadata.m; sourceTree = "<group>"; };
+		4918B7F21EF503920071B05D /* JRFFTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFTrack.h; sourceTree = "<group>"; };
+		4918B7F31EF503920071B05D /* JRFFTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFTrack.m; sourceTree = "<group>"; };
+		4918B7F61EF64C8A0071B05D /* JRFFDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFDecoder.h; sourceTree = "<group>"; };
+		4918B7F71EF64C8A0071B05D /* JRFFDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFDecoder.m; sourceTree = "<group>"; };
+		4958B1261EF37F960051733C /* JRFFAudioFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRFFAudioFrame.h; sourceTree = "<group>"; };
+		4958B1271EF37F960051733C /* JRFFAudioFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRFFAudioFrame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +285,7 @@
 			children = (
 				4913087C1EE7DA97005635AF /* ffmpeg */,
 				491309161EE7DDF9005635AF /* JRFFmpeg */,
+				491309301EE94E85005635AF /* JRTools */,
 			);
 			path = JRPlayer;
 			sourceTree = "<group>";
@@ -454,10 +500,47 @@
 		491309161EE7DDF9005635AF /* JRFFmpeg */ = {
 			isa = PBXGroup;
 			children = (
+				4918B7F61EF64C8A0071B05D /* JRFFDecoder.h */,
+				4918B7F71EF64C8A0071B05D /* JRFFDecoder.m */,
+				4918B7EC1EF5013F0071B05D /* JRFFFormatContext.h */,
+				4918B7ED1EF5013F0071B05D /* JRFFFormatContext.m */,
 				491309171EE7DDF9005635AF /* JRFFVideoDecoder.h */,
 				491309181EE7DDF9005635AF /* JRFFVideoDecoder.m */,
+				4918B7E81EF3D7CA0071B05D /* JRFFAudioDecoder.h */,
+				4918B7E91EF3D7CA0071B05D /* JRFFAudioDecoder.m */,
+				4918B7EF1EF503850071B05D /* JRFFMetadata.h */,
+				4918B7F01EF503850071B05D /* JRFFMetadata.m */,
+				4918B7F21EF503920071B05D /* JRFFTrack.h */,
+				4918B7F31EF503920071B05D /* JRFFTrack.m */,
+				491309261EE80C19005635AF /* JRFFFrame.h */,
+				491309271EE80C19005635AF /* JRFFFrame.m */,
+				4913091A1EE7E184005635AF /* JRFFVideoFrame.h */,
+				4913091B1EE7E184005635AF /* JRFFVideoFrame.m */,
+				4958B1261EF37F960051733C /* JRFFAudioFrame.h */,
+				4958B1271EF37F960051733C /* JRFFAudioFrame.m */,
+				4913091D1EE7E7C2005635AF /* JRFFFrameQueue.h */,
+				4913091E1EE7E7C2005635AF /* JRFFFrameQueue.m */,
+				491309201EE7E7D5005635AF /* JRFFPacketQueue.h */,
+				491309211EE7E7D5005635AF /* JRFFPacketQueue.m */,
+				491309231EE7E83E005635AF /* JRFFFramePool.h */,
+				491309241EE7E83E005635AF /* JRFFFramePool.m */,
+				4913092A1EE92609005635AF /* JRFFVideoToolBox.h */,
+				4913092B1EE92609005635AF /* JRFFVideoToolBox.m */,
+				4913092D1EE94E1A005635AF /* JRFFTools.h */,
+				4913092E1EE94E1A005635AF /* JRFFTools.m */,
 			);
 			path = JRFFmpeg;
+			sourceTree = "<group>";
+		};
+		491309301EE94E85005635AF /* JRTools */ = {
+			isa = PBXGroup;
+			children = (
+				491309311EE94EBC005635AF /* JRYUVTools.h */,
+				491309321EE94EBC005635AF /* JRYUVTools.m */,
+				491309341EE95045005635AF /* JRImageTools.h */,
+				491309351EE95045005635AF /* JRImageTools.m */,
+			);
+			path = JRTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -533,10 +616,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491309331EE94EBC005635AF /* JRYUVTools.m in Sources */,
+				4918B7EA1EF3D7CA0071B05D /* JRFFAudioDecoder.m in Sources */,
 				4913086C1EE7D9B1005635AF /* ViewController.m in Sources */,
+				4958B1281EF37F960051733C /* JRFFAudioFrame.m in Sources */,
+				4918B7EE1EF5013F0071B05D /* JRFFFormatContext.m in Sources */,
+				4913092C1EE92609005635AF /* JRFFVideoToolBox.m in Sources */,
 				491308691EE7D9B1005635AF /* AppDelegate.m in Sources */,
+				4913092F1EE94E1A005635AF /* JRFFTools.m in Sources */,
+				491309361EE95045005635AF /* JRImageTools.m in Sources */,
+				491309281EE80C19005635AF /* JRFFFrame.m in Sources */,
 				491309191EE7DDF9005635AF /* JRFFVideoDecoder.m in Sources */,
+				4918B7F81EF64C8A0071B05D /* JRFFDecoder.m in Sources */,
+				4913091F1EE7E7C2005635AF /* JRFFFrameQueue.m in Sources */,
 				491308661EE7D9B1005635AF /* main.m in Sources */,
+				4918B7F41EF503920071B05D /* JRFFTrack.m in Sources */,
+				491309221EE7E7D5005635AF /* JRFFPacketQueue.m in Sources */,
+				4913091C1EE7E184005635AF /* JRFFVideoFrame.m in Sources */,
+				4918B7F11EF503850071B05D /* JRFFMetadata.m in Sources */,
+				491309251EE7E83E005635AF /* JRFFFramePool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
